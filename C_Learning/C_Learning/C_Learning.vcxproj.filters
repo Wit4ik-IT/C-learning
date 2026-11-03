@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Lecture-3\task03_even_odd\2main.c">
+    <ClCompile Include="..\..\Lecture-3\task3_even_odd.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task4_month.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
