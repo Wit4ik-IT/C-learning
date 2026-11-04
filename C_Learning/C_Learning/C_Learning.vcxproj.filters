@@ -21,7 +21,7 @@
     <ClCompile Include="..\..\Lecture-3\task4_month.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="task5_sum_even.c">
+    <ClCompile Include="..\..\Lecture-3\task5_sum_even.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
