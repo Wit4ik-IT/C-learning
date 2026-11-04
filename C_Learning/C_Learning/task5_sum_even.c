@@ -19,6 +19,7 @@ int main()
 		}
 		sum += num;
 	}
+
 	printf("Sum of even numbers: %d\n", sum);
 	return 0;
 }
