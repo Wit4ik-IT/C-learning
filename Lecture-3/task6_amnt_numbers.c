@@ -15,6 +15,7 @@ int main()
 		printf("Error: need positive number ^_^\n");
 		return 1;
 	}
+
 	while ( (num*10) / 10 != 0)
 	{
 		amnt++;
