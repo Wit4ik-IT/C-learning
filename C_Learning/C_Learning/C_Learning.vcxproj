@@ -25,7 +25,10 @@
     <ClCompile Include="..\..\Lecture-3\task4_month.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task5_sum_even.c" />
+    <ClCompile Include="..\..\Lecture-3\task5_sum_even.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task6_amnt_numbers.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

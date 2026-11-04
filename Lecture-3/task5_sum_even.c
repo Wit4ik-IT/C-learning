@@ -17,9 +17,9 @@ int main()
 		return 1;
 	}
 
-	for (num; num != 0; num--)
+	for (num; num > 0; num--)
 	{
-		if (num % 2 != 0)
+		if (num % 2 == 0)
 		{
 			continue;
 		}
