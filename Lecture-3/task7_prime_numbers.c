@@ -3,7 +3,7 @@
 
 int main()
 {
-	int num, count = 0 , i = 1;;
+	int num, count = 0 , i = 1;
 	printf("Enter your whole positive number: \n");
 	if (scanf("%d", &num) != 1)
 	{
