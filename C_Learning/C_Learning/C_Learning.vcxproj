@@ -37,7 +37,10 @@
     <ClCompile Include="..\..\Lecture-3\task8_sum_digits.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task9_mult_table.c" />
+    <ClCompile Include="..\..\Lecture-3\task10_guess_number.c" />
+    <ClCompile Include="..\..\Lecture-3\task9_mult_table.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
