@@ -11,6 +11,12 @@ int main()
 		printf("Oops, invalid input");
 		return 1;
 	}
+	if (num < 0)
+	{
+		printf("Error: need posititve number");
+		return 1;
+	}
+
 	for (num; num != 0; num--)
 	{
 		if (num % 2 != 0)
