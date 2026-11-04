@@ -16,7 +16,7 @@ int main()
 		return 1;
 	}
 
-	while ( (num*10) / 10 != 0)
+	while (num != 0)
 	{
 		amnt++;
 		num = num / 10;
