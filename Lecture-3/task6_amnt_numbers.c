@@ -5,6 +5,7 @@ int main()
 {
 	int num, amnt = 0;
 	printf("Enter your whole positive number: ");
+
 	if (scanf("%d", &num) != 1)
 	{
 		printf("Oops, wrong input\n");
@@ -21,6 +22,7 @@ int main()
 		amnt++;
 		num = num / 10;
 	}
+
 	printf("Number of digits: %d", amnt);
 	return 0;
 }
