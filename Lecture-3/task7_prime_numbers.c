@@ -15,9 +15,9 @@ int main()
 		printf("ERROR: number need be bigger, than 2  ^_^");
 		return 1;
 	}
-	while (i < 10)
+	while (i < num)
 	{
-		if (i == num)
+		if (i == num || i == 1)
 		{
 			i++;
 			continue;
@@ -29,7 +29,7 @@ int main()
 		i++;
 	}
 
-	if (count <= 1)
+	if (count == 0)
 	{
 		printf("%d - Prime", num);
 	}
