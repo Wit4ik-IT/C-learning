@@ -23,7 +23,7 @@ int main()
 {
 	int a = 0, b = 0, c = 0;
 	printf("Max of three\nEnter three numbers: ");
-	if (scanf("%d %d %d", &a, &b, &c) == 0)
+	if (scanf("%d %d %d", &a, &b, &c) != 3)
 	{
 		printf("ERROR: wrong input");
 		return 1;
