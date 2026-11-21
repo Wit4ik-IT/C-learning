@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+int sum(int a, int b);
+
 int sum(int a, int b)
 {
 	int c = a + b;
@@ -14,6 +16,5 @@ int main()
 	scanf("%d %d", &a, &b);
 	sum(a, b);
 
-	
-
+	return 0;
 }
