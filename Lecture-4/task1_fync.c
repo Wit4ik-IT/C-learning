@@ -13,7 +13,11 @@ int main()
 {
 	int a = 0, b = 0;
 	printf("Enter your numbers: ");
-	scanf("%d %d", &a, &b);
+	if (scanf("%d %d", &a, &b) == 0)
+	{
+		printf("ERROR: wrong input");
+		return 1;
+	}
 	int result = sum(a, b);
 	printf("Sum is: %d", result);
 
