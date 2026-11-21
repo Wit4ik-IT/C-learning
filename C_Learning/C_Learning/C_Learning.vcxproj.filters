@@ -13,31 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Lec3">
+      <UniqueIdentifier>{152e8a3e-3159-44e7-85e4-3344d22b308e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lec4">
+      <UniqueIdentifier>{187298c2-152e-4738-a7d4-7537c7f2f8dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Lecture-3\task3_even_odd.c">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\Lec3</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Lecture-3\task4_month.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task5_sum_even.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task6_amnt_numbers.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task7_prime_numbers.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task8_sum_digits.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Lecture-3\task9_mult_table.c">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\Lec3</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Lecture-3\task10_guess_number.c">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\Lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task9_mult_table.c">
+      <Filter>Исходные файлы\Lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task8_sum_digits.c">
+      <Filter>Исходные файлы\Lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task7_prime_numbers.c">
+      <Filter>Исходные файлы\Lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task6_amnt_numbers.c">
+      <Filter>Исходные файлы\Lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-3\task5_sum_even.c">
+      <Filter>Исходные файлы\Lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task1_fync.c">
+      <Filter>Исходные файлы\Lec4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
