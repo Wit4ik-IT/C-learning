@@ -43,7 +43,10 @@
     <ClCompile Include="..\..\Lecture-3\task9_mult_table.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\Lecture-4\task1_fync.c" />
+    <ClCompile Include="..\..\Lecture-4\task1_fync.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task2_maxthree.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

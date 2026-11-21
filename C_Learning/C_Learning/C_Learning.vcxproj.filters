@@ -48,5 +48,8 @@
     <ClCompile Include="..\..\Lecture-4\task1_fync.c">
       <Filter>Исходные файлы\Lec4</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task2_maxthree.c">
+      <Filter>Исходные файлы\Lec4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
