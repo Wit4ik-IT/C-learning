@@ -1,10 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void retangle(int weight, int height);
+int retangle(int weight, int height);
 
-void retangle(int weight, int height)
+int retangle(int weight, int height)
 {
+	if (weight || height < 0)
+	{
+		printf("ERROR: negative numbers not allowed");
+		return 1;
+	}
 	int w, h;
 	h = height;
 	printf("\n");
@@ -19,6 +24,7 @@ void retangle(int weight, int height)
 		h--;
 		printf("\n");
 	}
+	return 0;
 }
 
 int main()
