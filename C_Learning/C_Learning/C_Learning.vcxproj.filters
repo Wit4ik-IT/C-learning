@@ -72,6 +72,9 @@
     <ClCompile Include="..\..\Lecture-4\task7_strng.c">
       <Filter>Исходные файлы\Lec4</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task8_sqr.c">
+      <Filter>Исходные файлы\Lec4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Lecture-4\task6_math_utils.h">

@@ -64,7 +64,10 @@
     <ClCompile Include="..\..\Lecture-4\task6_math_utils.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\Lecture-4\task7_strng.c" />
+    <ClCompile Include="..\..\Lecture-4\task7_strng.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task8_sqr.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Lecture-4\task6_math_utils.h">
