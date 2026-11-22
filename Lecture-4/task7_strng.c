@@ -9,6 +9,6 @@ int main()
 	printf("Word length\nEnter your word: ");
 	scanf("%49s", word);
 	length = strlen(word);
-	printf("Length: %d", length);
+	printf("Length: %zu", length);
 	return 0;
 }
