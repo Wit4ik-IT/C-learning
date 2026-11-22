@@ -19,6 +19,9 @@
     <Filter Include="Исходные файлы\Lec4">
       <UniqueIdentifier>{187298c2-152e-4738-a7d4-7537c7f2f8dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Lec4\task6">
+      <UniqueIdentifier>{0a494b9c-1c50-4b5e-b960-953fcbc5480a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Lecture-3\task3_even_odd.c">
@@ -60,5 +63,19 @@
     <ClCompile Include="..\..\Lecture-4\task5_sumnumbers.c">
       <Filter>Исходные файлы\Lec4</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task6_math_utils.c">
+      <Filter>Исходные файлы\Lec4\task6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task6_main_utils.c">
+      <Filter>Исходные файлы\Lec4\task6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task7_strng.c">
+      <Filter>Исходные файлы\Lec4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Lecture-4\task6_math_utils.h">
+      <Filter>Исходные файлы\Lec4\task6</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
