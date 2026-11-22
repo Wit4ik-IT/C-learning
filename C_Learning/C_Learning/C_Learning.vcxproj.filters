@@ -54,5 +54,8 @@
     <ClCompile Include="..\..\Lecture-4\task3_retang.c">
       <Filter>Исходные файлы\Lec4</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task4_cntr.c">
+      <Filter>Исходные файлы\Lec4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
