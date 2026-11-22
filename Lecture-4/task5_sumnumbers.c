@@ -1,19 +1,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int sum, digit;
+
 int sum_digits(int num)
 {
-
-	digit = num % 10;
-	sum = sum + digit;
-
 	if (num == 0)
 	{
-		return sum;
+		return 0;
 	}
-	sum_digits(num / 10);
-
+	return num % 10 + sum_digits(num / 10);
 }
 
 int main()
