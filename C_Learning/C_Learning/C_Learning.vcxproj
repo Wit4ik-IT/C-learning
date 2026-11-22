@@ -52,7 +52,10 @@
     <ClCompile Include="..\..\Lecture-4\task3_retang.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\Lecture-4\task4_cntr.c" />
+    <ClCompile Include="..\..\Lecture-4\task4_cntr.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-4\task5_sumnumbers.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
