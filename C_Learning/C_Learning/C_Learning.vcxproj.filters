@@ -22,6 +22,9 @@
     <Filter Include="Исходные файлы\Lec4\task6">
       <UniqueIdentifier>{0a494b9c-1c50-4b5e-b960-953fcbc5480a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Lec5">
+      <UniqueIdentifier>{da970591-60ff-4246-aec5-c05f9d9b61bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Lecture-3\task3_even_odd.c">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Lecture-4\task8_sqr.c">
       <Filter>Исходные файлы\Lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task1_swap.c">
+      <Filter>Исходные файлы\Lec5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
