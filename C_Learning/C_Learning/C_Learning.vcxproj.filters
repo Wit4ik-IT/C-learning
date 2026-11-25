@@ -81,6 +81,15 @@
     <ClCompile Include="..\..\Lecture-5\task1_swap.c">
       <Filter>Исходные файлы\Lec5</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task2_arrPrint.c">
+      <Filter>Исходные файлы\Lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task3_ptrdff.c">
+      <Filter>Исходные файлы\Lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task4_maxArr.c">
+      <Filter>Исходные файлы\Lec5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Lecture-4\task6_math_utils.h">
