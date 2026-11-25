@@ -1,10 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#define SIZE 6
 
-
-void arrayInput(int* ptr1)
+int arrayInput(int* ptr1, int count)
 {
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < count; i++)
 	{
 		printf("Enter your %d number: ", i + 1);
 		if (scanf("%d", (ptr1 + i)) != 1)
@@ -13,13 +13,14 @@ void arrayInput(int* ptr1)
 			return 1;
 		}
 	}
+	return 0;
 }
 
 
-int sumarray(int* ptr1)
+int sumarray(int* ptr1, int count)
 {
 	int sum = 0;
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < count; i++)
 	{
 		sum = sum + *(ptr1 + i);
 	}
@@ -29,12 +30,13 @@ int sumarray(int* ptr1)
 
 int main()
 {
-	int arr[6] = {0};
+	int count = SIZE;
+	int arr[SIZE] = {0};
 	int* ptr1;
 	int result;
 	ptr1 = arr;
-	arrayInput(ptr1);
-	result = sumarray(ptr1);
+	arrayInput(ptr1, count);
+	result = sumarray(ptr1,count);
 	printf("Sum: %d", result);
 	return 0;
 }

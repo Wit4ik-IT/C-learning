@@ -1,9 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void print_array(int* arr)
+void print_array(int* arr, int count)
 {
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < count; i++)
 	{
 		printf("%d ", *(arr + i));
 	}
@@ -12,6 +12,7 @@ void print_array(int* arr)
 int main()
 {
 	int arr[5];
+	int count = 5;
 	int* pa = arr;
 	int i = 0;
 	printf("Six-seven (^_^)\nFive numbers print\n");
@@ -26,6 +27,6 @@ int main()
 		}
 		i++;
 	}
-	print_array(pa);
+	print_array(pa, count);
 	return 0;
 }
