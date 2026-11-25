@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#define SIZE 5
+
 
 void print_array(int* arr, int count)
 {
@@ -11,15 +13,16 @@ void print_array(int* arr, int count)
 
 int main()
 {
-	int arr[5];
-	int count = 5;
+	int arr[SIZE];
+	int count = SIZE;
 	int* pa = arr;
 	int i = 0;
 	printf("Six-seven (^_^)\nFive numbers print\n");
 
-	while (i < 5)
+
+	while (i < SIZE)
 	{
-		printf("Enter your %d number\n", i + 1);
+		printf("Enter your %d number: ", i + 1);
 		if (scanf("%d", (pa + i)) != 1)
 		{
 			printf("ERROR: wrong input\n");
