@@ -93,6 +93,15 @@
     <ClCompile Include="..\..\Lecture-5\task5_ptrnull.c">
       <Filter>Исходные файлы\Lec5</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task6_voidptr.c">
+      <Filter>Исходные файлы\Lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task7_char.c">
+      <Filter>Исходные файлы\Lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lecture-5\task8_diff.c">
+      <Filter>Исходные файлы\Lec5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Lecture-4\task6_math_utils.h">

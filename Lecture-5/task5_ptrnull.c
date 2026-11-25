@@ -1,17 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int print_value(int* ptr1)
+void print_value(int* ptr1)
 {
 	if (ptr1 == NULL)
 	{
 		printf("Pointer is Null");
-		return 1;
 	}
 	else
 	{
 		printf("Value: %d", *ptr1);
-		return 0;
 	}
 }
 
